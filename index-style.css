@@ -1,0 +1,205 @@
+@media all and (max-width: 1440px);
+
+html{
+    background-color: white;
+}
+.first{
+    background-image: url(images/bg-hero-desktop.svg);
+    display: block;
+    height: auto;
+    align-items: center;
+    margin-top: none;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 100px;
+    max-width: 1440px;
+    min-width: 375px;
+    padding: 50px;
+    background-color: white;
+    align-items: center;
+}
+header{
+    display: flex;
+    align-items: center;
+}
+p{
+    font-size: 20px;
+}
+.logo{
+    margin-right: none;   
+}
+.try-it{
+    background-color: white;
+    font-weight: bold;
+    margin-left: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: 2s;
+    border: none;
+    border-radius: 20px;
+    box-shadow:  0.5px 0.5px 10px rgb(70, 70, 70);
+}
+.mockup{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    display: flex;
+    height: auto;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mockup-image{
+    width: 500px;
+}
+.get-started{
+    color: white;
+    background-color: rgb(252, 70, 100);
+    padding-left: 45px;
+    padding-right: 45px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    transition: width 2s;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.second{
+    display: flex;
+    width: 1000px;
+    height: auto;
+    align-items: center;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+    transition: width 2s;
+    box-shadow:  0.5px 0.5px 10px rgb(70, 70, 70);
+}
+.second-image{
+    margin: 50px;
+    width: 500px;
+}
+.ready{
+    text-align: center;
+    color: black;
+    padding: 100px;
+    background-color: white;
+    height: auto;
+    width: 600px;
+    transition: width 2s;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow:  0.5px 0.5px 10px rgb(70, 70, 70);
+}
+footer{
+    margin-top: -5%;
+    color: white;
+    padding-top: 90px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    background-color: hsl(192, 100%, 9%);
+}
+.footer-info{
+    margin-top: 30px;
+    display: flex;
+}
+.footer-logo{
+    filter: grayscale(100%);
+    filter: brightness(10%);
+    filter: invert(98%) sepia(100%) saturate(7%) hue-rotate(117deg) brightness(101%) contrast(102%);
+    color: white;
+    display: block;
+}
+.address{
+    padding-left: 50px;
+    padding-right: 20px;
+    width: 600px;
+    margin-right: 20px;
+    text-indent:  -55px;
+}
+.icon{
+    display: inline-block;
+    padding-right: 20px;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+    margin-right: 20px;
+    
+}
+nav a{
+    display: flex;
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    width: 120px;
+    color: white;
+    text-decoration: none;
+    flex-direction: column;
+}
+.social-media{
+    width: 500px;
+}
+.fa {
+    padding: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 40px;
+    width: 10px;
+    text-align: center;
+    border: 1px;
+    border-radius: 50%;
+    border-style: solid;
+    color: white;
+    border-color: white;
+    text-decoration: none;
+}
+.copyright{
+    text-align: right;
+}
+
+
+
+.second:hover{
+    width: 1100px;
+    box-shadow:  0.5px 0.5px 30px rgb(134, 6, 6);
+    image-resolution: 900px;
+}
+.try-it:hover{
+    background-color: white;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: auto;
+    box-shadow:  0.5px 0.5px 10px rgb(230, 13, 13);
+}
+.get-started:hover{
+    background-color: white;
+    font-weight: bolder;
+    font-size: larger;
+    margin-left: auto;
+    color: rgb(252, 70, 100);
+    box-shadow:  0.5px 0.5px 10px rgb(252, 13, 13);
+}
+.ready:hover{
+    color: rgb(252, 70, 100);
+    width: 750px;
+    box-shadow:  0.5px 0.5px 30px rgb(134, 6, 6);
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
